@@ -1,0 +1,35 @@
+"id": "Better MC [FORGE] BMC4 Better MC [FORGE] 1.20.1 v41",
+  "time": "2025-03-04T23:54:25+07:00",
+  "releaseTime": "2023-06-12T13:25:51+07:00",
+  "type": "release",
+  "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
+  "minimumLauncherVersion": 21,
+  "arguments": {
+    "jvm": [
+      {
+        "values": [
+          "-XstartOnFirstThread"
+        ],
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "name": "osx"
+            }
+          }
+        ]
+      },
+      {
+        "values": [
+          "-XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump"
+        ],
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "name": "windows"
+            }
+          }
+        ]
+      },
+      {
