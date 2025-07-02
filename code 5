@@ -1,0 +1,75 @@
+  "values": [
+          "-cp"
+        ]
+      },
+      {
+        "values": [
+          "${classpath}"
+        ]
+      },
+      {
+        "values": [
+          "-Djava.net.preferIPv6Addresses=system"
+        ]
+      },
+      {
+        "values": [
+          "-DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,JarJarFileSystems,client-extra,fmlcore,javafmllanguage,lowcodelanguage,mclanguage,forge-,${version_name}.jar"
+        ]
+      },
+      {
+        "values": [
+          "-DmergeModules=jna-5.10.0.jar,jna-platform-5.10.0.jar"
+        ]
+      },
+      {
+        "values": [
+          "-DlibraryDirectory=${library_directory}"
+        ]
+      },
+      {
+        "values": [
+          "-p"
+        ]
+      },
+      {
+        "values": [
+          "${library_directory}/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar${classpath_separator}${library_directory}/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar${classpath_separator}${library_directory}/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar${classpath_separator}${library_directory}/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+        ]
+      },
+      {
+        "values": [
+          "--add-modules"
+        ]
+      },
+      {
+        "values": [
+          "ALL-MODULE-PATH"
+        ]
+      },
+      {
+        "values": [
+          "--add-opens"
+        ]
+      },
+      {
+        "values": [
+          "java.base/java.util.jar=cpw.mods.securejarhandler"
+        ]
+      },
+      {
+        "values": [
+          "--add-opens"
+        ]
+      },
+      {
+        "values": [
+          "java.base/java.lang.invoke=cpw.mods.securejarhandler"
+        ]
+      },
+      {
+        "values": [
+          "--add-exports"
+        ]
+      },
+      {
